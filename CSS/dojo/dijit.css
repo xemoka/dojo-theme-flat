@@ -1582,7 +1582,7 @@ div.dijitTabDisabled, .dj_ie div.dijitTabDisabled {
 .dijitIEFixedToolbar {
 	position:absolute;
 	
-	top: expression(eval((document.documentElement||document.body).scrollTop));
+	/*top: expression(eval((document.documentElement||document.body).scrollTop));*/
 }
 .dijitEditor {
 	display: block;	
