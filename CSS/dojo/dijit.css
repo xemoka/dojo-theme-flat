@@ -14,12 +14,12 @@
 .dijitInline {
 	
 	display:inline-block;			
-	#zoom: 1; 
-	#display:inline; 
+	/*zoom: 1; */
+	/*display:inline; */
 	border:0;
 	padding:0;
 	vertical-align:middle;
-	#vertical-align: auto;	
+	/*vertical-align: auto;	*/
 }
 table.dijitInline {
 	
@@ -38,7 +38,7 @@ table.dijitInline {
 .dj_ie6 .dijitComboBox .dijitInputContainer,
 .dijitInputContainer {
 	
-	#zoom: 1;
+	/*zoom: 1;*/
 	overflow: hidden;
 	float: none !important; 
 	position: relative;
@@ -195,7 +195,7 @@ TABLE.dijitSelect {
 }
 .dijitRight {
 	
-	#display:inline;				
+	/*display:inline;				*/
 	background-position:right top;
 	background-repeat:no-repeat;
 }
@@ -250,7 +250,7 @@ td.dijitButtonContents {
 	margin:0;
 	line-height:20px;
 	vertical-align: middle;
-	#vertical-align: auto;
+	/*vertical-align: auto;*/
 	text-align:center;
 	white-space: nowrap;
 }
@@ -280,7 +280,7 @@ div.dijitArrowButton {
 }
 .dijitTextBox {
 	border: solid black 1px;
-	#overflow: hidden; 
+	/*overflow: hidden; */
 	width: 15em;	
 	vertical-align: middle;
 }
@@ -305,7 +305,7 @@ div.dijitArrowButton {
 	position: absolute;
 	top: 0;
 	left: 0;
-	#filter: ""; 
+	/*filter: ""; */
 }
 .dijitTimeTextBox {
 	width: 8em;
@@ -346,9 +346,9 @@ div.dijitArrowButton {
 	direction: ltr !important;
 	text-align: left !important;
 	/*height: auto !important;*/
-	#text-indent: 0 !important;
-	#letter-spacing: -5em !important;
-	#text-align: right !important;
+	/*text-indent: 0 !important;*/
+	/*letter-spacing: -5em !important;*/
+	/*text-align: right !important;*/
 }
 .dj_ie .dijitSelect input,
 .dj_ie .dijitTextBox input,
@@ -489,7 +489,7 @@ div.dijitArrowButton {
 	border-top-width: 1px !important;
 }
 .dijitSpinner .dijitSpinnerButtonContainer .dijitUpArrowButton {
-	#bottom: 50%;	
+	/*bottom: 50%;	*/
 	top: 0;
 }
 .dijitSpinner .dijitArrowButtonInner {
@@ -1173,8 +1173,8 @@ div.dijitTabDisabled, .dj_ie div.dijitTabDisabled {
 .dijitTabContainerBottom-tabs .dijitTab {
 	
 	display:inline-block;			
-	#zoom: 1; 
-	#display:inline; 
+	/*zoom: 1; */
+	/*display:inline; */
 }
 .tabStripButton {
 	z-index: 12;
@@ -1582,7 +1582,7 @@ div.dijitTabDisabled, .dj_ie div.dijitTabDisabled {
 .dijitIEFixedToolbar {
 	position:absolute;
 	
-	top: expression(eval((document.documentElement||document.body).scrollTop));
+	/*top: expression(eval((document.documentElement||document.body).scrollTop));*/
 }
 .dijitEditor {
 	display: block;	
@@ -1738,7 +1738,7 @@ div.dijitTabDisabled, .dj_ie div.dijitTabDisabled {
 }
 .dojoDndHorizontal .dojoDndItem {
     
-    #display: inline;
+    /*display: inline;*/
     display: inline-block;
 }
 .dojoDndItemBefore,
