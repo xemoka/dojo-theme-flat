@@ -80,8 +80,8 @@
   z-index: 9999;
   -webkit-border-radius: 2px;
   border-radius: 2px;
-  -webkit-box-shadow: $map-tooltip-box-shadow;
-  box-shadow: $map-tooltip-box-shadow;
+  -webkit-box-shadow: #2b2e34;
+  box-shadow: #2b2e34;
   opacity: 0.8;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
   filter: alpha(opacity=80);
